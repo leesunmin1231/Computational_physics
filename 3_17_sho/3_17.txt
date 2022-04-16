@@ -1,0 +1,5 @@
+overdamping
+critical damping
+under damping
+
+수식전개 해보기. ppt 참조
