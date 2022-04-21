@@ -61,7 +61,7 @@ g = 9.8
 ll = 1.0 # length of the pendulum
 t = 0.0
 delta_t = 0.01
-y = np.array([0.0,1.0]) # [angular speed, angle]
+y = np.array([0.0,0.0]) # [angular speed, angle]
 L = np.array([ [ll,0.0], [0.0, 1.0]])
 F = np.array([0.0, 0.0])
 inv_L = inv(L)
@@ -87,8 +87,8 @@ while True:
 
     clock.tick(100) #runs 1 frame per second
     pygame.display.update()
-    filename = "problem_3_%04d.png" %(count)
-    pygame.image.save(screen, filename)
+#     filename = "problem_3_%04d.png" %(count)
+#     pygame.image.save(screen, filename)
 
-os.system("ffmpeg -r 100 -f image2 -s 600x400 -i problem_3_%04d.png -vcodec libx264 -pix_fmt yuv420p problem_3.mp4")
-os.system("rm problem_3_*.png")
+# os.system("ffmpeg -r 100 -f image2 -s 600x400 -i problem_3_%04d.png -vcodec libx264 -pix_fmt yuv420p problem_3.mp4")
+# os.system("rm problem_3_*.png")

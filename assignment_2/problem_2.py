@@ -83,8 +83,7 @@ A = np.array([[m,0.0],[0.0,1.0]])
 B = np.array([[c,k],[-1.0,0.0]])
 F = np.array([0.0,0.0]) # no driving force at the moment
 # result list
-XX = []
-FF = []
+
 inv_A =inv(A)
 
 count = 0
