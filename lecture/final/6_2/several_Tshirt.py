@@ -28,7 +28,6 @@ plt.figure()
 for i in range(25):
     plt.subplot(5,5,i+1)
     plt.imshow(train_images[i])
-    print(train_labels[i])
     plt.xlabel (class_names[train_labels[i]])
 # plt.imshow(train_images[0])
 # plt.colorbar()

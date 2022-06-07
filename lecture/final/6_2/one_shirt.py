@@ -10,6 +10,7 @@ fashion_minst = keras.datasets.fashion_mnist.load_data()
 class_names = ['T-shirt/top',
 'Trouser',
 'Pullover',
+'Dress',
 'Coat',
 'Sandal',
 'Shirt'
