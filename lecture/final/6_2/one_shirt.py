@@ -13,15 +13,15 @@ class_names = ['T-shirt/top',
 'Dress',
 'Coat',
 'Sandal',
-'Shirt'
-,'Sneaker',
+'Shirt',
+'Sneaker',
 'Bag',
 'Ankle boot']
 
-print(train_images.shape)
-print(len(train_labels))
-print(train_images[0])
-print(train_labels[0])
+# print(train_images.shape)
+# print(len(train_labels))
+# print(train_images[0])
+# print(train_labels[0])
 
 plt.figure()
 plt.imshow(train_images[0])
